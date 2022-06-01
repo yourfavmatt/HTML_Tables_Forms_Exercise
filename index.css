@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding:24px;
+    background: linear-gradient(to bottom right,#444, #111);
+    color: #eee;
+}main{
+    max-width: 600px;
+    margin: 24px auto;
+    padding: 10 px;
+    text-align: center;
+}
+
+section {
+    border-radius: 8px;
+    background: linear-gradient(to bottom right, #ddd, #fff);
+    box-shadow: 5px 5px 10px #000;
+    color: #111;
+    padding: 12px;
+    margin: 12px 0;
+
+}
+
+fieldset {
+    border: none;
+}
+
+label, 
+input {
+    text-align: left;
+    display: block;
+   
+    margin: 12px auto;
+    min-width: 50%;
+    width: 100%;
+    max-width: 400px;
+}
+
+input{
+    border-bottom: 1px inset #0094c8
+}
